@@ -1,0 +1,15 @@
+[package]
+name = "past201912_c"
+version = "0.1.0"
+authors = ["Yusei-SHIRAISHI <yusei.shiraishi29@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+proconio = { version = "=0.3.6", features = ["derive"] }
+
+[dev-dependencies]
+cli_test_dir = "0.1"
