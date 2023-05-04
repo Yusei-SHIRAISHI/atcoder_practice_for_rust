@@ -1,5 +1,5 @@
 [package]
-name = "past201912_d"
+name = "past201912_e"
 version = "0.1.0"
 authors = ["Yusei-SHIRAISHI <yusei.shiraishi29@gmail.com>"]
 edition = "2018"
@@ -10,6 +10,7 @@ path = "src/main.rs"
 
 [dependencies]
 proconio = { version = "=0.3.6", features = ["derive"] }
+itertools = "0.10.5"
 
 [dev-dependencies]
 cli_test_dir = "0.1"
